@@ -44,7 +44,7 @@ const phpWatchFiles    = root + '**/*.php',
 const jsSRC = [
     js + 'foundation.min.js',
     js + 'jquery.magnific-popup.min.js',
-    js + 'link.min.js',
+    js + 'list.min.js',
     js + 'slick.min.js',
     js + 'what-input.js',
     js + 'app.js',

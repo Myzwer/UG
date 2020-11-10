@@ -7,4 +7,30 @@ function myFunction() {
     }
 }
 
-console.log("Custom is linked properly fo sho yo");
+jQuery(document).ready(function(){
+    jQuery('.video-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+
+    });
+});
+
+jQuery(document).ready(function() {
+    jQuery('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+});
+
+console.log("Custom is linked properly fo sho yo 2");

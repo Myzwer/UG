@@ -1,0 +1,32 @@
+/**
+ * Arrow
+ * =================================
+ * Bouncing Arrow to tell users to scroll.
+ *
+ */
+
+.arrow{
+  animation: arr 2s infinite;
+  margin-left: -50px;
+  a{
+    position:relative;
+    &:before{
+      content:"";
+      position:absolute;
+      width:60px;
+      height:60px;
+      border-top:10px solid $red;
+      border-right:10px solid $red;
+      transform:rotate(135deg);
+    }
+  }
+
+  @keyframes arr{
+    0%,100%{
+      transform:translateY(0px);
+    }
+    50%{
+      transform:translateY(50px);
+    }
+  }
+}

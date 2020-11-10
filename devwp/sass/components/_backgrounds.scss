@@ -4,7 +4,7 @@
  * - Photo Header
  * - Video Header
  * - Color Backgrounds
- *
+ * - Gradient Backgrounds
  *
  *
  *
@@ -41,15 +41,15 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -2;
-
 }
+
 .viewport-header {
   position: relative;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 
@@ -74,3 +74,19 @@ body {
   background-color: $background;
 }
 
+
+//*********************************************
+//********** GRADIENT BACKGROUNDS *************
+//*********************************************
+
+.gradient-bg-r-y {
+  background: linear-gradient($red,$yellow);
+}
+
+.gradient-bg-p-p {
+  background: linear-gradient($hover-pink,$hover-purple);
+}
+
+.gradient-bg-r-p {
+  background: linear-gradient($red,$purple);
+}
