@@ -43,17 +43,30 @@ h1, h2, h3 {
 h1 {
   text-transform: uppercase;
   font-size: $xlarge;
-  color: $background;
+  font-family: $head-font;
+  color: $red;
+  text-shadow:
+          1px 0px $background, 0px 1px $purple,
+          2px 1px $background, 1px 2px $purple,
+          3px 2px $background, 2px 3px $purple,
+          4px 3px $background, 3px 4px $purple,
+          5px 4px $background, 4px 5px $purple,
+          6px 5px $background, 5px 6px $purple,
+          7px 6px $background, 6px 7px $purple,
+          8px 7px $background, 7px 8px $purple,
+          8px 8px $background, 7px 8px $purple;
 }
 
 h2 {
   font-size: $large;
   text-transform: uppercase;
+  color: $off-white;
 }
 
 h3 {
   font-size: $medium;
   text-transform: uppercase;
+  color: $off-white;
 }
 
 h4 {
@@ -105,7 +118,7 @@ h5 {
 p {
   font-family: $main-font;
   font-size: $normal;
-  color: black;
+  color: $primary;
   padding: 20px;
   line-height: 1.6;
   padding-bottom: 0;

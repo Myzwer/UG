@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="FONT UPDATES: Remvoed Harbor and Roboto, added Oswald and Levibrush. Note levibrush was added from a file, oswald is a google font.">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_headers.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="SCSS Restructure: Header is now nav, and header is its own file, colors have been updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/variables/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +103,7 @@
       <workItem from="1586218388070" duration="975000" />
       <workItem from="1600359805432" duration="19852000" />
       <workItem from="1604900466658" duration="1625000" />
-      <workItem from="1604976971838" duration="1844000" />
+      <workItem from="1604976971838" duration="6972000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -135,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604978582090</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SCSS Restructure: Header is now nav, and header is its own file, colors have been updated.">
+      <created>1604979517877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604979517877</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +170,8 @@
     <MESSAGE value="Contact.php was living in the wrong spot, so I moved it to its correct folder." />
     <MESSAGE value="Completely reworked my scss file structure. Moved most of my files into a few folders and broke them apart into smaller files. This change was inpsired from changes I was making to nearly every project I worked on. The current structure had too many classes that could fit into one or more files, so this helps differentiate which classes should be in which files." />
     <MESSAGE value="FONT UPDATES: Remvoed Harbor and Roboto, added Oswald and Levibrush. Note levibrush was added from a file, oswald is a google font." />
-    <option name="LAST_COMMIT_MESSAGE" value="FONT UPDATES: Remvoed Harbor and Roboto, added Oswald and Levibrush. Note levibrush was added from a file, oswald is a google font." />
+    <MESSAGE value="SCSS Restructure: Header is now nav, and header is its own file, colors have been updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="SCSS Restructure: Header is now nav, and header is its own file, colors have been updated." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

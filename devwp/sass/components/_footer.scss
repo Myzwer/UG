@@ -15,9 +15,9 @@
   width: 100%;
   position: relative;
   height: auto;
-  background-color: $primary;
+  background-color: $background;
   font-family: $main-font;
-  color: $background;
+  color: $yellow;
   text-transform: uppercase;
 
 }
@@ -117,7 +117,7 @@
 }
 
 .footer .contain a {
-  color: $background;
+  color: $yellow;
 }
 
 .footer .menu li {
@@ -127,7 +127,7 @@
 
 .section-title a:first-of-type{
   cursor: default;
-  opacity: .3;
+  opacity: .5;
 }
 
 .col a {

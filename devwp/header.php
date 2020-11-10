@@ -22,7 +22,7 @@
 <div class="topnav" id="myTopnav">
     <div class = "logo">
         <a href="http://charisinaction.org/">
-            <img src = "http://starter-template.local/wp-content/uploads/2020/03/Logo.png" alt = "logo">
+            <img src = "http://unfantasticgamers.local/wp-content/uploads/2020/11/UG_Synth_Fav_Icon.png" alt = "logo">
         </a>
     </div>
 
