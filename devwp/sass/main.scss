@@ -2,12 +2,8 @@
  * Main
  * =================================
  * - Variables
- * - Buttons
- * - Footer
- * - Overrides
- * - Backgrounds
- * - Typography
- *
+ * - Utilities
+ * - Components
  *
  *
  * - Main file that gets rendered. If partials are roads, than this is Rome.
@@ -41,7 +37,7 @@
 //*********************************************
 
 
-@import 'components/header';
+@import 'components/nav';
 @import 'components/footer';
 @import 'components/buttons';
 @import 'components/backgrounds';

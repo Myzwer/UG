@@ -11,19 +11,17 @@
 // Background and Foreground colors.
 // All fonts and headers (unless overwritten) will be effected.
 
-  $primary: #000000;
-  $background: #ffffff;
+$primary: #ffffff;
+$background: #040625;
+
+
+// Brand palette colors.
+// Use the color type as opposed to "secondary" or "tertiary" or something.
+
 //colors
-$purple: #040625;       // Base Background
 $cyan: #2789D0;         // Highlight Background
 $red: #fd2873;          // Main Foreground
 $yellow: #e7950c;       // Secondary Foreground
 $off-white: #f0e9de;    // I Wanted a white
 $hover-pink: #ff16a5;   // Hover Color 1
 $hover-purple: #6e41ff; // Hover color 2
-
-
-// Brand palette colors.
-// Use the color type as opposed to "secondary" or "tertiary" or something.
-
-  // $cyan: #E0FFFF;
