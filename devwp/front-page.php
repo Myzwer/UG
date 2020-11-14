@@ -181,13 +181,28 @@ We did not create this video, no changes were made to the original work. -->
 <div class="fullWidth gradient-bg-r-p">
     <div class="grid-container fullWidth">
         <div class="grid-x grid-margin-x">
-            <div class="cell small-12">
-                <h2 class = "center add-padding">See What Others Have To Say!</h2>
-                <p class = "featured-reviews">"bro nice video very sex thank you" <span class = "author">- Rex L </span></p>
-                <p class="featured-reviews">"what mission is this"<span class = "author">- Jessica Komalestewa </span></p>
-                <p class="featured-reviews">"cool"<span class = "author">- Rosendo Rodriguez </span></p>
-                <p class="featured-reviews">"Great video man! Check out my channel if you'd like"<span class = "author">- Jazz </span></p>
-                <p class="featured-reviews">"You guys still have a Youtube?"<span class = "author">- Our Parents </span></p>
+            <div class="cell small-12 margin-bottom">
+                <h2 class="center add-padding">See What Others Have To Say!</h2>
+                <p class="featured-reviews">"bro nice video very sex thank you" <span class = "bold">- Rex L </span></p>
+                <p class="featured-reviews">"what mission is this"<span class = "bold">- Jessica Komalestewa </span></p>
+                <p class="featured-reviews">"cool"<span class = "bold">- Rosendo Rodriguez </span></p>
+                <p class="featured-reviews">"Great video man! Check out my channel if you'd like"<span class = "bold">- Jazz </span></p>
+                <p class="featured-reviews">"You guys still have a Youtube?"<span class = "bold">- Our Parents </span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fullWidth gradient-bg-c-r">
+    <div class="grid-container fullWidth">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12 margin-bottom">
+                <h2 class="center add-padding">Follow Us On Socials</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f circle-background "></i></a>
+                    <a href="#"><i class="fab fa-instagram circle-background "></i></a>
+                    <a href="#"><i class="fab fa-youtube circle-background "></i></a>
+                </div>
             </div>
         </div>
     </div>

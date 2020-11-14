@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="FRONT-PAGE: Continued work on the homepage, rearraging scss as necessary. Slick is working, but slick theme is not. For some reason the slick fonts aren't linking, need to figure that out.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Slick couldn't find it's font files, so I had to put point it directly there with an absolute file path. Annoying, but its working now.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_socials.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/src/css/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/css/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,7 @@
       <workItem from="1600359805432" duration="19852000" />
       <workItem from="1604900466658" duration="1625000" />
       <workItem from="1604976971838" duration="16001000" />
-      <workItem from="1605304077007" duration="7154000" />
+      <workItem from="1605304077007" duration="11235000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -156,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605017992632</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Slick couldn't find it's font files, so I had to put point it directly there with an absolute file path. Annoying, but its working now.">
+      <created>1605329622217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605329622217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +194,8 @@
     <MESSAGE value="SCSS Restructure: Header is now nav, and header is its own file, colors have been updated." />
     <MESSAGE value="SCSS: Updated a few misc things, mainly the nav and footer. Transferred over a few typography things as well as a button style." />
     <MESSAGE value="FRONT-PAGE: Continued work on the homepage, rearraging scss as necessary. Slick is working, but slick theme is not. For some reason the slick fonts aren't linking, need to figure that out." />
-    <option name="LAST_COMMIT_MESSAGE" value="FRONT-PAGE: Continued work on the homepage, rearraging scss as necessary. Slick is working, but slick theme is not. For some reason the slick fonts aren't linking, need to figure that out." />
+    <MESSAGE value="Slick couldn't find it's font files, so I had to put point it directly there with an absolute file path. Annoying, but its working now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Slick couldn't find it's font files, so I had to put point it directly there with an absolute file path. Annoying, but its working now." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
