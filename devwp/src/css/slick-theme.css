@@ -5,8 +5,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('src/fonts/slick.eot');
-    src: url('src/fonts/slick.eot?#iefix') format('embedded-opentype'), url('src/fonts/slick.woff') format('woff'), url('src/fonts/slick.ttf') format('truetype'), url('src/fonts/slick.svg#slick') format('svg');
+    src: url('/wp-content/themes/devwp/src/fonts/slick.eot');
+    src: url('/wp-content/themes/devwp/src/fonts/slick.eot?#iefix') format('embedded-opentype'), url('/wp-content/themes/devwp/src/fonts/slick.woff') format('woff'), url('/wp-content/themes/devwp/src/fonts/slick.ttf') format('truetype'), url('/wp-content/themes/devwp/src/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
