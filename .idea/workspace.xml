@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Finished up the homepage with a social CTA. Might restructure later but for now this will work.">
+      <change afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_utility-classes.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +101,7 @@
       <workItem from="1604900466658" duration="1625000" />
       <workItem from="1604976971838" duration="16001000" />
       <workItem from="1605304077007" duration="13934000" />
+      <workItem from="1605855113579" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605333735861</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finalized the front page, at least for the moment.">
+      <created>1605855451402</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605855451402</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,12 +208,17 @@
     <MESSAGE value="FRONT-PAGE: Continued work on the homepage, rearraging scss as necessary. Slick is working, but slick theme is not. For some reason the slick fonts aren't linking, need to figure that out." />
     <MESSAGE value="Slick couldn't find it's font files, so I had to put point it directly there with an absolute file path. Annoying, but its working now." />
     <MESSAGE value="Finished up the homepage with a social CTA. Might restructure later but for now this will work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished up the homepage with a social CTA. Might restructure later but for now this will work." />
+    <MESSAGE value="Finalized the front page, at least for the moment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalized the front page, at least for the moment." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600370564002" />
+    <state x="712" y="483" key="NewPhpFileDialog" timestamp="1605855551977">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="712" y="483" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1605855551977" />
   </component>
 </project>
