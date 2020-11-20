@@ -37,6 +37,7 @@
 .padding-bottom {
   padding-bottom: 30px;
 }
+
 .add-padding {
   padding: 20px;
 }
@@ -48,6 +49,17 @@
 
 .padding-bottom-xl {
   padding-bottom: 60px;
+}
+
+//these are pretty niche, used for the homepage videos on tablet specifically.
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .padding-left {
+    padding-left: 10px;
+  }
+
+  .padding-right {
+    padding-right: 10px;
+  }
 }
 
 

@@ -69,17 +69,19 @@ We did not create this video, no changes were made to the original work. -->
                                         <h4 class = "center add-padding">Other Videos</h4>
                                     </div>
 
-                                    <div class="small-12 medium-6 large-12 cell relative margin-bottom-sm">
-                                        <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2019/11/League-of-Trash-episode-16-Janna-in-the-wind-city-Thumbnail.jpg" alt="">
-                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=utZuNHnze_I&t">
-                                            <span></span>
-                                        </a>
-                                    </div>
-                                    <div class="small-12 medium-6 large-12 cell relative">
-                                        <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2019/10/apex-s3-thumbnail.jpg" alt="">
-                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=cJf3-w0f5pI">
-                                            <span></span>
-                                        </a>
+                                    <div class="grid-x">
+                                        <div class="small-12 medium-6 large-12 cell relative margin-bottom-sm padding-right">
+                                            <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2019/11/League-of-Trash-episode-16-Janna-in-the-wind-city-Thumbnail.jpg" alt="">
+                                            <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=utZuNHnze_I&t">
+                                                <span></span>
+                                            </a>
+                                        </div>
+                                        <div class="small-12 medium-6 large-12 cell padding-left relative">
+                                            <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2019/10/apex-s3-thumbnail.jpg" alt="">
+                                            <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=cJf3-w0f5pI">
+                                                <span></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- End Stack -->
@@ -110,17 +112,19 @@ We did not create this video, no changes were made to the original work. -->
                                         <h4 class = "center add-padding">Other Crap Matt Made</h4>
                                     </div>
 
-                                    <div class="small-12 medium-6 large-12 cell relative margin-bottom-sm">
-                                        <img class = "rounded-corners" src="https://unfantasticgamers.com/wp-content/uploads/2019/12/maxresdefault-copy.jpg" alt="">
-                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=os-yQhewRsE">
-                                            <span></span>
-                                        </a>
-                                    </div>
-                                    <div class="small-12 medium-6 large-12 cell relative">
-                                        <img class = "rounded-corners" src="https://unfantasticgamers.com/wp-content/uploads/2017/12/League-of-Trash-Episode-4-Sexy-Nidalee-Skins-Thumbnail-1.jpg" alt="">
-                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=LG_CBq7oVrE">
-                                            <span></span>
-                                        </a>
+                                    <div class="grid-x">
+                                        <div class="small-12 medium-6 large-12 cell relative margin-bottom-sm padding-right">
+                                            <img class = "rounded-corners" src="https://unfantasticgamers.com/wp-content/uploads/2019/12/maxresdefault-copy.jpg" alt="">
+                                            <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=os-yQhewRsE">
+                                                <span></span>
+                                            </a>
+                                        </div>
+                                        <div class="small-12 medium-6 large-12 cell relative padding-left">
+                                            <img class = "rounded-corners" src="https://unfantasticgamers.com/wp-content/uploads/2017/12/League-of-Trash-Episode-4-Sexy-Nidalee-Skins-Thumbnail-1.jpg" alt="">
+                                            <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=LG_CBq7oVrE">
+                                                <span></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- End Stack -->
@@ -147,21 +151,23 @@ We did not create this video, no changes were made to the original work. -->
 
                                 <!-- Video 2/3 - Stack -->
                                 <div class="small-12 medium-12 large-4 cell">
-                                    <div class="small-12 cell ">
+                                    <div class="small-12 cell">
                                         <h4 class = "center add-padding">Other Great Josh Content</h4>
                                     </div>
 
-                                    <div class="small-12 medium-6 large-12 cell relative margin-bottom-sm">
-                                        <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Ep-1-1.jpg" alt="">
-                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=hAD0tSi1RAA">
-                                            <span></span>
-                                        </a>
-                                    </div>
-                                    <div class="small-12 medium-6 large-12 cell relative">
-                                        <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Mass-Effect-3-War-Asset-Guide.jpg" alt="">
-                                        <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=5cxATjBiG-4">
-                                            <span></span>
-                                        </a>
+                                    <div class="grid-x">
+                                        <div class="small-12 medium-6 large-12 cell relative margin-bottom-sm padding-right">
+                                            <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Ep-1-1.jpg" alt="">
+                                            <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=hAD0tSi1RAA">
+                                                <span></span>
+                                            </a>
+                                        </div>
+                                        <div class="small-12 medium-6 large-12 cell relative padding-left">
+                                            <img class = "rounded-corners"  src="https://unfantasticgamers.com/wp-content/uploads/2017/12/Mass-Effect-3-War-Asset-Guide.jpg" alt="">
+                                            <a id="play-video" class="popup-youtube video-play-button" href="https://www.youtube.com/watch?v=5cxATjBiG-4">
+                                                <span></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- End Stack -->
@@ -199,9 +205,9 @@ We did not create this video, no changes were made to the original work. -->
             <div class="cell small-12 margin-bottom">
                 <h2 class="center add-padding">Follow Us On Socials</h2>
                 <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f circle-background "></i></a>
-                    <a href="#"><i class="fab fa-instagram circle-background "></i></a>
-                    <a href="#"><i class="fab fa-youtube circle-background "></i></a>
+                    <a href="#"><i class="fab fa-facebook-f circle-background box-shadow"></i></a>
+                    <a href="#"><i class="fab fa-instagram circle-background box-shadow"></i></a>
+                    <a href="#"><i class="fab fa-youtube circle-background box-shadow"></i></a>
                 </div>
             </div>
         </div>
