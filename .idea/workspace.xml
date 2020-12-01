@@ -19,10 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Finished the about us page until ACF gets added later.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Finished the Contact Page.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_form-filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_video-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/js/devwp.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/js/devwp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +109,8 @@
       <workItem from="1604976971838" duration="16001000" />
       <workItem from="1605304077007" duration="13934000" />
       <workItem from="1605855113579" duration="8996000" />
-      <workItem from="1606367216189" duration="242000" />
+      <workItem from="1606367216189" duration="5758000" />
+      <workItem from="1606797486803" duration="6997000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -186,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605859625875</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished the Contact Page.">
+      <created>1606367842034</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606367842034</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +233,8 @@
     <MESSAGE value="Finished up the homepage with a social CTA. Might restructure later but for now this will work." />
     <MESSAGE value="Finalized the front page, at least for the moment." />
     <MESSAGE value="Finished the about us page until ACF gets added later." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the about us page until ACF gets added later." />
+    <MESSAGE value="Finished the Contact Page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the Contact Page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

@@ -1,0 +1,70 @@
+/**
+ * Form Filter
+ * =================================
+ * - This is what allows the forms on the videos page to filter.
+ *
+ *
+ *
+ *
+ *
+ */
+
+
+section {
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 16px 8px;
+  font-size: 16px;
+  outline: none;
+  background-color: #E78584;
+  border: none;
+  color: #5C393D;
+}
+
+section li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: $background;
+  color: $primary;
+  border-radius: 8px;
+  padding: 10px 5px;
+  margin: 5px;
+}
+
+
+
+/*
+.List {
+  width: 100%;
+  margin: 8px 0;
+
+  >li {
+    padding: 12px 8px;
+    background-color: #F2B7BD;
+    border-bottom: 1px solid #5C393D;
+    transition: all 0.1s ease;
+
+    &.is-hidden {
+      height: 0;
+      font-size: 0;
+      padding: 0;
+      border: none;
+      visibility: hidden;
+    }
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #5C393D;
+}
+
+:-moz-placeholder { !* Firefox 18- *!
+  color: #5C393D;
+}
+
+::-moz-placeholder {  !* Firefox 19+ *!
+  color: #5C393D;
+}*/
