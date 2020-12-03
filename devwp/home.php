@@ -36,8 +36,74 @@ get_header(); ?>
                     <h2 class = "add-padding">Latest Videos</h2>
                 </div>
 
-                <div class="small-12 medium-6 medium-offset-6 center">
-                    <h3>Categories</h3>
+                <div class="small-12 medium-8">
+                    <div class="grid-container">
+                        <div class="grid-x grid-margin-x grid-margin-y margin-top margin-bottom">
+
+                            <div class="small-12 medium-6 cell video-card">
+                                <img src="http://unfantasticgamers.local/wp-content/uploads/2020/11/Cant-catch-me-League-of-trash-episode-17-copy.jpg" alt="">
+                                <h4>Video Title</h4>
+                                <p> Series: <span class = "category">League Of Trash</span></p>
+                            </div>
+
+                            <!-- The Loop-->
+                            <?php
+                            if ( have_posts() ) :
+                            while ( have_posts() ) : the_post();
+                            echo "<div class='small-12 medium-6 cell video-card'>";
+                            ?>
+
+                            <div class = 'blog-card'>
+                                <a href = "<?php the_permalink(); ?>">
+
+
+                                    <?php
+                                    echo "<div class = 'card-thumbnail'>";
+                                    the_post_thumbnail();
+                                    echo "</div>";
+
+                                    echo "<div class='card-cat'>";
+
+                                    the_tags('', ', ', '<br />');
+
+                                    echo "</div>";
+
+                                    echo '<h4><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4>';
+
+                                    the_excerpt( '<p class = "blog-excerpt">', '</p>' );
+
+
+                                    echo "<div class = 'card-details'>";
+
+                                    echo "<span class='card-name'>";
+                                    the_category();
+                                    echo "</span>";
+                                    echo " | ";
+
+                                    echo "<span class='card-date'>";
+                                    echo get_the_date();
+                                    echo "</span>";
+
+
+                                    echo "</a>";
+                                    echo "</div>";
+                                    echo "</div>";
+                                    echo "</div>";
+                                    endwhile;
+                                    else:
+                                        _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+                                    endif;
+                                    ?>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-4 center">
+                    <h3>Series</h3>
                     <section>
                         <input type="text" id="filter" placeholder="Type to filter"/>
                         <ul id="list" class="List">
@@ -57,28 +123,10 @@ get_header(); ?>
                         </ul>
                     </section>
                 </div>
-
-                <div class="small-12 medium-6 large-4 cell video-card">
-                    <img src="http://unfantasticgamers.local/wp-content/uploads/2020/11/Cant-catch-me-League-of-trash-episode-17-copy.jpg" alt="">
-                    <h4>Video Title</h4>
-                    <p> Series:
-                        <span class = "category">League Of Trash</span></p>
-                </div>
-
-                <div class="small-12 medium-6 large-4 cell video-card">
-                    <img src="http://unfantasticgamers.local/wp-content/uploads/2020/11/Cant-catch-me-League-of-trash-episode-17-copy.jpg" alt="">
-                    <h4>Video Title</h4>
-                </div>
-
-                <div class="small-12 medium-6 large-4 cell video-card">
-                    <img src="http://unfantasticgamers.local/wp-content/uploads/2020/11/Cant-catch-me-League-of-trash-episode-17-copy.jpg" alt="">
-                    <h4>Video Title</h4>
-                </div>
             </div>
         </div>
     </div>
 
-   
 
 
 
@@ -88,8 +136,6 @@ get_header(); ?>
 
 
 
-
-    </div>
 
 
 
