@@ -9,10 +9,15 @@
  *
  */
 
+.category-outer {
+  margin-top: 40px;
+}
 
 section {
   margin: 0 auto;
+
 }
+
 
 input {
   width: 100%;
@@ -22,11 +27,15 @@ input {
   background-color: #E78584;
   border: none;
   color: #5C393D;
+  margin: 5px;
+}
+
+section ul {
+  margin: 0;
 }
 
 section li {
   list-style-type: none;
-  display: inline-block;
   background-color: $background;
   color: $primary;
   border-radius: 8px;

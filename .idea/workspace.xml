@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Got the video cards looking the way I wanted and they are dynamically generated from wordpress. Categories still needs work.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_video-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_video-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_form-filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_form-filter.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +104,7 @@
       <workItem from="1606797486803" duration="7091000" />
       <workItem from="1606969664641" duration="5628000" />
       <workItem from="1607011093811" duration="66000" />
-      <workItem from="1607029588203" duration="6805000" />
+      <workItem from="1607029588203" duration="8941000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -214,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606977932699</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Got the video cards looking the way I wanted and they are dynamically generated from wordpress. Categories still needs work.">
+      <created>1607060889093</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607060889093</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="Finished the Contact Page." />
     <MESSAGE value="Began working on the videos page, working on filtering system for the categories at the moment. RIght now the trick is showing only a handful but allowing the rest to be indexable." />
     <MESSAGE value="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it." />
+    <MESSAGE value="Got the video cards looking the way I wanted and they are dynamically generated from wordpress. Categories still needs work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the video cards looking the way I wanted and they are dynamically generated from wordpress. Categories still needs work." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

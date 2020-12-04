@@ -72,16 +72,12 @@ get_header(); ?>
                                         _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
                                     endif;
                                     ?>
-
-
-
-
                         </div>
                     </div>
                 </div>
 
-                <div class="small-12 medium-4 center ">
-                    <h3>Series</h3>
+                <div class="small-12 medium-4 center gradient-bg-r-p box-shadow rounded-corners category-outer">
+                    <h3 class = "padding-top">Series</h3>
                     <section>
                         <input type="text" id="filter" placeholder="Type to filter"/>
                         <ul id="list" class="List">
