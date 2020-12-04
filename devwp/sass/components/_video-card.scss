@@ -12,7 +12,9 @@
 .video-card {
   background: linear-gradient($cyan,$hover-pink);
   border-radius: 10px;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding-bottom: 15px;
+  transition: .5s;
 
   img {
     border-top-left-radius: 10px;
@@ -20,14 +22,35 @@
   }
 
   h4 {
-    padding: 10px 5px 0px 5px;
+    padding: 15px 5px 0px 10px;
     margin-bottom: 0px;
   }
 
-  p {
+  ul {
     margin: 0;
-    padding: 5px;
   }
+
+  li {
+    margin-left: 5px;
+    margin-top: -5px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    background-color: $cyan;
+  }
+}
+
+.video-card:hover {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.category-title {
+  color: $primary;
+  padding-left: 5px;
+  margin: 10px 0px 0px 5px;
+  display: flex;
+  padding-top: 5px;
 }
 
 .category {

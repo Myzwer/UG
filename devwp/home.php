@@ -40,12 +40,6 @@ get_header(); ?>
                     <div class="grid-container">
                         <div class="grid-x grid-margin-x grid-margin-y margin-top margin-bottom">
 
-                            <div class="small-12 medium-6 cell video-card">
-                                <img src="http://unfantasticgamers.local/wp-content/uploads/2020/11/Cant-catch-me-League-of-trash-episode-17-copy.jpg" alt="">
-                                <h4>Video Title</h4>
-                                <p> Series: <span class = "category">League Of Trash</span></p>
-                            </div>
-
                             <!-- The Loop-->
                             <?php
                             if ( have_posts() ) :
@@ -62,28 +56,12 @@ get_header(); ?>
                                     the_post_thumbnail();
                                     echo "</div>";
 
-                                    echo "<div class='card-cat'>";
-
-                                    the_tags('', ', ', '<br />');
-
-                                    echo "</div>";
-
                                     echo '<h4><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4>';
 
-                                    the_excerpt( '<p class = "blog-excerpt">', '</p>' );
-
-
                                     echo "<div class = 'card-details'>";
-
-                                    echo "<span class='card-name'>";
+                                    echo '<div class = "category-title"> Series: ';
                                     the_category();
-                                    echo "</span>";
-                                    echo " | ";
-
-                                    echo "<span class='card-date'>";
-                                    echo get_the_date();
-                                    echo "</span>";
-
+                                    echo '</div>';
 
                                     echo "</a>";
                                     echo "</div>";
@@ -102,7 +80,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="small-12 medium-4 center">
+                <div class="small-12 medium-4 center ">
                     <h3>Series</h3>
                     <section>
                         <input type="text" id="filter" placeholder="Type to filter"/>

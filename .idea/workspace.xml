@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Began working on the videos page, working on filtering system for the categories at the moment. RIght now the trick is showing only a handful but allowing the rest to be indexable.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_video-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_video-card.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +105,9 @@
       <workItem from="1605855113579" duration="8996000" />
       <workItem from="1606367216189" duration="5758000" />
       <workItem from="1606797486803" duration="7091000" />
-      <workItem from="1606969664641" duration="5272000" />
+      <workItem from="1606969664641" duration="5628000" />
+      <workItem from="1607011093811" duration="66000" />
+      <workItem from="1607029588203" duration="6805000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -201,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606831759822</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it.">
+      <created>1606977932699</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606977932699</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +246,8 @@
     <MESSAGE value="Finished the about us page until ACF gets added later." />
     <MESSAGE value="Finished the Contact Page." />
     <MESSAGE value="Began working on the videos page, working on filtering system for the categories at the moment. RIght now the trick is showing only a handful but allowing the rest to be indexable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Began working on the videos page, working on filtering system for the categories at the moment. RIght now the trick is showing only a handful but allowing the rest to be indexable." />
+    <MESSAGE value="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Got a working design done for the blog page. Still need to change some things around, But i have the positiong where I want it." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
